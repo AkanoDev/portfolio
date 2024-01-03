@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "./Button";
+import { RxCross1 } from "react-icons/rx";
 
 function toggleTheme() {
   document.documentElement.classList.toggle("dark");
@@ -43,9 +44,15 @@ export default function Navbar() {
             className="sm:hidden block group cursor-pointer"
             onClick={handleBurger}
           >
-            <span className="bar dark:bg-white"></span>
-            <span className="bar dark:bg-white"></span>
-            <span className="bar dark:bg-white"></span>
+            {isBurger ? (
+              <RxCross1 className="text-2xl" />
+            ) : (
+              <>
+                <span className="bar dark:bg-white"></span>
+                <span className="bar dark:bg-white"></span>
+                <span className="bar dark:bg-white"></span>
+              </>
+            )}
 
             {isBurger && (
               <ul className="lg:flex md:flex flex flex-col absolute left-0 right-0 top-16 pt-11 py-10 gap-10 bg-medium-white z-10 items-center dark:bg-dark-mode">

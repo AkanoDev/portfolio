@@ -40,7 +40,7 @@ function Hero() {
   return (
     <>
       <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col-reverse place-items-center lg:gap-32 gap-8 ">
-        <div className="flex flex-col gap-y-3 text-lightest-black dark:text-white">
+        <div className="flex flex-col lg:items-start lg:text-start md:items-start md:text-start items-center text-center gap-y-3 text-lightest-black dark:text-white">
           <h2 className="font-semibold text-4xl uppercase">
             Front-End Developer
           </h2>

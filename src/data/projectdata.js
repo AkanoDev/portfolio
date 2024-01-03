@@ -37,6 +37,7 @@ export const projectdata = [
     title: "Far Away",
     description: `A webapp designed for listing baggage for travel provides a convenient 
     platform for individuals to connect and share available luggage space with those in need.`,
+    demo: "https://travel-list-lilac.vercel.app/",
     image: "./images/projectimg/faraway.jpg",
     code: "https://github.com/AkanoDev/TravelList/blob/main/src/App.js",
   },
