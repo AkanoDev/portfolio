@@ -3,10 +3,7 @@ import { projectdata } from "../data/projectdata";
 
 export default function Projects() {
   return (
-    <div
-      className="flex flex-col lg:h-screen h-auto lg:gap-32 gap-4 py-7"
-      id="project"
-    >
+    <div className="flex flex-col h-auto lg:gap-32 gap-4 py-7" id="project">
       <h2 className="text-md font-semibold uppercase text-lightest-black underline dark:text-white">
         Small Projects
       </h2>
