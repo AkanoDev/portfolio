@@ -25,6 +25,14 @@ export const projectdata = [
     code: "https://github.com/AkanoDev/LendingTracker/blob/main/src/App.js",
   },
   {
+    title: "FurniLiving",
+    description: `These websites typically offer a wide range of products, 
+    including sofas, chairs, tables, beds, and other home furnishings.  `,
+    image: "./images/projectimg/furniliving.jpg",
+    demo: "https://furniliving.vercel.app/",
+    code: "https://github.com/AkanoDev/furniliving/blob/main/src/App.js",
+  },
+  {
     title: "TasteTag",
     description: `User-friendly platform ensures a seamless and convenient ordering
      experience, allowing you to indulge in gourmet burgers without leaving the comfort 
