@@ -1,12 +1,17 @@
 import { useState } from "react";
-import Button from "./Button";
 import { RxCross1 } from "react-icons/rx";
+import { IoSunnyOutline } from "react-icons/io5";
+import { FiMoon } from "react-icons/fi";
 
-function toggleTheme() {
-  document.documentElement.classList.toggle("dark");
-}
 export default function Navbar() {
   const [isBurger, setIsBurger] = useState(false);
+  const [isToggle, setIsToggle] = useState(false);
+
+  function toggleTheme() {
+    document.documentElement.classList.toggle("dark");
+    setIsToggle((tog) => !tog);
+  }
+
   function handleBurger() {
     setIsBurger((burger) => !burger);
   }
@@ -38,8 +43,7 @@ export default function Navbar() {
           </a>
         </ul>
 
-        <div className="flex items-center gap-2">
-          <Button onClick={toggleTheme}>Darkmode</Button>
+        <div className="flex items-center gap-4">
           <div
             className="sm:hidden block group cursor-pointer"
             onClick={handleBurger}
@@ -71,6 +75,11 @@ export default function Navbar() {
               </ul>
             )}
           </div>
+          {isToggle ? (
+            <FiMoon onClick={toggleTheme} className="text-lg" />
+          ) : (
+            <IoSunnyOutline onClick={toggleTheme} className="text-lg" />
+          )}
         </div>
       </div>
     </div>

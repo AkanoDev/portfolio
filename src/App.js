@@ -15,7 +15,7 @@ export default function App() {
           <Navbar />
         </nav>
 
-        <main className="h-5/6 flex flex-col justify-center lg:px-40 px-5 py-10 gap-6 ">
+        <main className="h-5/6 flex flex-col justify-center lg:px-40 px-5 py-10 lg:gap-16 gap-20 ">
           <Hero />
           <Skill />
         </main>
@@ -39,8 +39,8 @@ export default function App() {
 function Hero() {
   return (
     <>
-      <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col-reverse place-items-center lg:gap-32 gap-8 ">
-        <div className="flex flex-col lg:items-start lg:text-start md:items-start md:text-start items-center text-center gap-y-3 text-lightest-black dark:text-white">
+      <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col-reverse place-items-center lg:gap-32 gap-8">
+        <div className="flex flex-col lg:items-start lg:text-start md:items-start md:text-start items-center text-center gap-y-4 text-lightest-black dark:text-white">
           <h2 className="font-semibold text-4xl uppercase">
             Front-End Developer
           </h2>
@@ -51,7 +51,7 @@ function Hero() {
             creations.
           </p>
           <a href="./cv/REDICKJAKETAALRESUME.pdf" download>
-            <button className="w-32 h-10 rounded bg-hard-black hover:scale-105  text-white transition ease-in-out">
+            <button className="py-2 px-5 rounded bg-hard-black hover:rounded-full text-white transition-all">
               Download CV
             </button>
           </a>
