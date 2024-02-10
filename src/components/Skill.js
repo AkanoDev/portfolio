@@ -29,6 +29,13 @@ export default function Skill() {
         </SkillList>
         <SkillList>
           <img
+            src="./images/logos/php.png"
+            alt="..."
+            className="lg:w-16 w-12"
+          />
+        </SkillList>
+        <SkillList>
+          <img
             src="./images/logos/react.png"
             alt="..."
             className="lg:w-16 w-12"

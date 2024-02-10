@@ -41,9 +41,7 @@ function Hero() {
     <>
       <div className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col-reverse place-items-center lg:gap-32 gap-8">
         <div className="flex flex-col lg:items-start lg:text-start md:items-start md:text-start items-center text-center gap-y-4 text-lightest-black dark:text-white">
-          <h2 className="font-semibold text-4xl uppercase">
-            Front-End Developer
-          </h2>
+          <h2 className="font-semibold text-4xl uppercase">Web Developer</h2>
           <p>
             My adventure began with the magic of HTML and the styling wonders of
             CSS. Armed with a curiosity to make things move and groove, I delved
