@@ -48,7 +48,7 @@ function Hero() {
             into the world of JavaScript to bring interactivity and life to my
             creations.
           </p>
-          <a href="./cv/RedickJakeTaalCV.pdf" download>
+          <a href="./cv/Redick Jake Taal CV.pdf" download>
             <button className="py-2 px-5 rounded bg-hard-black hover:rounded-full text-white transition-all">
               Download CV
             </button>
